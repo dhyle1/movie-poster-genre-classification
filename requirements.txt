@@ -1,0 +1,22 @@
+# Dependencies for the CLIP and LoRA experiments
+# (FullFinetuning/, LORA_prompt/, datasets/).
+# The CNN baseline has its own file: baseline/requirements.txt
+#
+# This list is reconstructed from the packages the scripts import.
+# The package versions used during the project were not recorded, and
+# this environment has not been verified by re-running the experiments.
+# Newer releases (in particular of peft) may behave differently.
+
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+Pillow
+tqdm
+peft
+matplotlib
+seaborn
+
+# OpenAI CLIP (imported as `clip`), installed from GitHub
+git+https://github.com/openai/CLIP.git
